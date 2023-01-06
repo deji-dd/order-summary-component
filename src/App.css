@@ -1,38 +1,104 @@
-.App {
+.div,
+.plan {
+  border-radius: 1rem;
+}
+
+.button,
+.btn,
+.last-btn {
+  font-weight: 700;
+}
+
+.last-btn,
+.button {
+  border: none;
+  cursor: pointer;
+  background: none;
+  outline: none;
+}
+
+.div {
+  width: 450px;
+  height: 700px;
+  background-color: white;
+}
+
+.img {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.text {
   text-align: center;
+  width: 350px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text,
+.button {
+  margin-top: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.plan {
+  width: 350px;
+  height: 95px;
+  background-color: hsl(225, 100%, 98%);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.music-icon,
+.plan-text {
+  margin-top: 1.5rem;
+}
+
+.icon-div {
+  width: 65px;
+}
+
+.button {
+  color: hsl(245, 75%, 52%);
+  text-decoration: underline;
+}
+
+.button:hover {
+  text-decoration: none;
+  color: hsl(245, 64%, 60%);
+}
+
+.button-div {
+  width: 6.5rem;
+}
+
+.btn {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.6rem;
+}
+
+.btn:hover {
+  background-color: hsl(245, 64%, 60%);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-div {
+  width: 350px;
+  height: 50px;
+  margin-top: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.last-div {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.last-btn {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+}
+
+.last-btn:hover {
+  color: hsl(223, 47%, 23%);
 }
